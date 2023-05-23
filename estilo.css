@@ -6,6 +6,11 @@ main {
     display: flex;
 }
 
+header {
+    background-color: black;
+    color: white;
+}
+
 header h1 {
     margin-bottom: 0;
 }

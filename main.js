@@ -1,15 +1,15 @@
-import {adicionar, getItems} from "./store.js";
+import {adicionar, getItems, remove} from "./store.js";
 
 const form = document.forms.entrada;
 form.addEventListener('submit', envia);
-form.remover.addEventListener('click', remove);
+form.remover.addEventListener('click', remover);
 
 atualiza();
 
-function remove() {
+function remover() {
     console.log('Remove clickado!');
     remove();
-    update();
+    atualiza();
 }
 
 function envia(evento) {
